@@ -3,59 +3,255 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga Studio</title>
   <link rel="stylesheet" href="styles.css">
-  <title>Advanced Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+      <!--header section and popup menu-->
   <header>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <div class="menu-toggle" onclick="toggleMenu()">Menu</div>
+      <ul id="menu">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About_us.html">About Us</a></li>
+        <li><a href="Class.html">Classes</a></li>
+        <li><a href="https://docs.google.com/forms/d/1VTcVXGjGjvCT7edd80KY_j6lZ9FdspVWZrYIPqwLLkg/edit">Contact Us</a></li>
       </ul>
     </nav>
-  </header>
+</header>
 
-  <section id="home" class="hero">
-    <h1>Welcome to Our Website</h1>
-    <p>Discover the best services and solutions for your needs.</p>
-    <a href="https://lakhipdmedhi.github.io/The-exception-/" class="btn">Explore Services</a>
+
+
+    <!--maim body-->
+
+
+
+
+  <main>
+    <section id="home">
+      <h1>Welcome to Yoga Studio</h1>
+      <p>Find your inner peace and balance.</p>
+      <a href="Class.html" class="cta">View Classes</a>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Learn more about our yoga studio and philosophy.</p>
+    </section>
+ 
+ 
+ 
+  <h1>Yoga Classes</h1>
+</header>
+<main>
+  <section class="yoga-type">
+    <img src="yoga_image.jpg" alt="Yoga Pose">
+    <h2>Hatha Yoga</h2>
+    <p>Hatha yoga is a traditional style that focuses on physical postures (asanas) and breath control (pranayama). It helps improve flexibility, strength, and relaxation.</p>
   </section>
 
-  <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <section class="yoga-type">
+    <img src="yoga_image2.jpg" alt="Yoga Pose">
+    <h2>Vinyasa Flow</h2>
+    <p>Vinyasa flow yoga involves dynamic sequences of poses that are synchronized with breath. It promotes fluid movement, strength building, and mental focus.</p>
   </section>
 
-  <section id="services" class="services">
-    <h2>Our Services</h2>
-    <div class="service-card">
-      <h3>Service 1</h3>
-      <p>Description of Service 1.</p>
+  <section class="yoga-type">
+    <img src="yoga_image3.jpg" alt="Yoga Pose">
+    <h2>Restorative Yoga</h2>
+    <p>Restorative yoga is a gentle practice that uses props to support the body in relaxing postures. It helps release tension, reduce stress, and promote deep relaxation.</p>
+  </section>
+<div id="tyu">  
+  <p>
+    <h1>Lakhi Yoga Studio</h1>
+
+Welcome to Lakhi Yoga Studio, your serene oasis for holistic wellness and mindful living. Our studio offers a range of yoga classes and workshops designed to nurture your mind, body, and soul. Join us on the mat and discover the transformative power of yoga. Namaste!
+  </p></div>
+</main>
+
+ 
+<section class="upcoming-events">
+  <h2>recent Events</h2>
+  <div class="event">
+    <img src="cc1.jpg" alt="Event 1 Image">
+    <div class="event-details">
+      <h3>Full Moon Yoga Retreat</h3>
+      <p>Date: April 15-17, 2024</p>
+      <p>Location: Tranquil Valley Retreat Center</p>
+      <a href="#" class="btn">Learn More</a>
     </div>
-    <div class="service-card">
-      <h3>Service 2</h3>
-      <p>Description of Service 2.</p>
+  </div>
+  <!-- Repeat the event structure for other upcoming events -->
+  <section class="upcoming-events">
+  <h2>Upcoming Events</h2>
+  <div class="event">
+    <img src="cc3.jpg" alt="Event 1 Image">
+    <div class="event-details">
+      <h3>Full Moon Yoga Retreat</h3>
+      <p>Date: April 15-17, 2024</p>
+      <p>Location: Tranquil Valley Retreat Center</p>
+      <a href="#" class="btn">Learn More</a>
     </div>
-    <!-- More service cards here -->
-  </section>
+  </div>
+ <div class="event-details">
+      <h3>Full Moon Yoga Retreat</h3>
+      <p>Date: April 15-17, 2024</p>
+      <p>Location: Tranquil Valley Retreat Center</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+    <br>
+  <div class="event">
+    <img src="cc2.jpg" alt="Event 2 Image">
+    <div class="event-details">
+      <h3>Mindfulness Meditation Workshop</h3>
+      <p>Date: May 5, 2024</p>
+      <p>Location: Inner Peace Yoga Studio</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+ <div class="event-details">
+      <h3>Full Moon Yoga Retreat</h3>
+      <p>Date: April 15-17, 2024</p>
+      <p>Location: Tranquil Valley Retreat Center</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+    <br>
+  <div class="event">
+    <img src="cc1.jpg" alt="Event 3 Image">
+    <div class="event-details">
+      <h3>Yoga in the Park</h3>
+      <p>Date: June 8, 2024</p>
+      <p>Location: City Park Amphitheater</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+</section>
+  
+  
+</section>
 
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <form id="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
 
-  <footer>
-    <p>&copy; 2023 Advanced Website. All rights reserved.</p>
+
+
+
+
+
+
+ 
+<!--<section>
+
+<body>
+  <h1>My Google Map</h1>
+  <div id="map"></div>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</section>-->
+ 
+ 
+ 
+  </main>
+  
+  
+  
+  <!--<div class="popup" id="popupContact">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <h2>Contact Us</h2>
+      <p>Get in touch with us for inquiries and bookings.</p>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>-->
+  
+  
+  
+  <!--scroll image section-->
+  
+  
+  
+  <h1>
+    View More
+  </h1>
+  
+  <div class="img-sco">
+      <div class="image-scroll-container">
+    <div class="image-scroll">
+      <div class="image-item">
+        <img src="image1.jpg" alt="Image 1">
+        <div class="image-description">
+          <h3>Description 1</h3>
+          <p>This is the description for Image 1.</p>
+          <a href="#" target="main" id="nextlink"> 
+            click here
+          </a>
+        </div>
+      </div>
+      <div class="image-item">
+        <img src="image2.jpg" alt="Image 2">
+        <div class="image-description">
+          <h3>Description 2</h3>
+          <p>This is the description for Image 2.</p>
+                    <a href="#" target="main" id="nextlink"> 
+            click here
+          </a>
+        </div>
+      </div>
+      <div class="image-item">
+        <img src="image3.jpg" alt="Image 3">
+        <div class="image-description">
+          <h3>Description 3</h3>
+          <p>This is the description for Image 3.</p>
+         <a href="#" target="main" id="nextlink">
+          click here
+          </a>
+        </div>
+      </div>
+      <!-- Add more image-item divs here -->
+      <div class="image-item">
+        <img src="image4.jpg" alt="Image 3">
+        <div class="image-description">
+          <h3>Description 3</h3>
+          <p>This is the description for Image 3</p>
+          <a href="#" target="main" id="nextlink"> 
+            click here
+          </a>
+        </div>
+      </div>
+<div class="image-item">
+        <img src="image5.jpg" alt="Image 3">
+        <div class="image-description">
+          <h3>Description 3</h3>
+          <p>This is the description for Image 3.</p>
+          <a href="#" target="main" id="nextlink"> 
+            click here
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <hr>
+  <section class="social-media">
+  <h2>Follow Us on Social Media</h2>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/YourYogaPage" target="_blank"><i class="fa fa-facebook"> facebook</i></a><br>
+    <a href="https://www.twitter.com/YourYogaPage" target="_blank"><i class="fa fa-twitter"> twitter</i></a><br>
+    <a href="https://www.instagram.com/YourYogaPage" target="_blank"><i class="fa fa-instagram"></i> instagram</a><br>
+    <a href="https://www.youtube.com/YourYogaPage" target="_blank"><i class="fa fa-youtube"> youtube</i></a>
+  </div>
+</section>
+
+  
+  
+  
+   <footer>
+    <p>&copy; 2024 Yoga Studio. All rights reserved.</p>
   </footer>
-
   <script src="script.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </body>
 </html>
