@@ -1,3 +1,5 @@
+html{
+  max-width: 720px;
 body {
   font-family: Arial, sans-serif;
   margin: 0;
