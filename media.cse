@@ -3,7 +3,17 @@
 
 
 
-
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul.show {
+    display: block;
+  }
+}
 
 header {
   background-color: #bdbdbd;
